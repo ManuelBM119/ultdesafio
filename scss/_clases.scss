@@ -4,12 +4,25 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+//MAP
+
+
+
 $color-primary:#e66465;
 $color-secundary:black;
+
+
+@mixin sizes($ancho , $espacio , $espacio-p) {
+    width: $ancho;
+    margin: $espacio;
+    padding: $espacio-p;
+}
 
   /* HEADER */
 body{
     background: linear-gradient(#e1eec3,#d9a7c7,#636FA4);
+
 }
 
 
@@ -56,7 +69,7 @@ a{
     text-align: center;
     margin: 5px 0;
     font-size: 40px;
-    color: $color-primary;
+    color: color-primary;
 
 }
 
@@ -197,12 +210,14 @@ a{
   /* FOOTER */
 
 
+// EXTEND
 
 .contenedor-f{
     color: rgb(0, 0, 0);
     text-align: center;
 }
 .social-network{
+    @extend .contenedor-f;
     text-align: center;
     font-size: 30px;
     padding: 20px 0;
@@ -228,10 +243,8 @@ a{
 
 
 form{
-    width: 600px;
-    margin: auto;
+    @include sizes(600px,auto, 10px 20px );
     align-content: center;
-    padding: 10px 20px;
     margin-top: 60px;
     border: solid $color-secundary ;
     border-radius: 7px;

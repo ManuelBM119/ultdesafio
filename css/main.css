@@ -35,7 +35,7 @@ a {
   text-align: center;
   margin: 5px 0;
   font-size: 40px;
-  color: #e66465; }
+  color: color-primary; }
 
 /* ESTILO DE MAIN */
 .contenedor {
@@ -128,7 +128,7 @@ a {
 
 /* TERMINA SIDEBAR */
 /* FOOTER */
-.contenedor-f {
+.contenedor-f, .social-network {
   color: black;
   text-align: center; }
 
@@ -148,8 +148,8 @@ a {
 form {
   width: 600px;
   margin: auto;
-  align-content: center;
   padding: 10px 20px;
+  align-content: center;
   margin-top: 60px;
   border: solid black;
   border-radius: 7px;
