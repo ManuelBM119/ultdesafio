@@ -1,5 +1,5 @@
 {
-  "name": "ultdesafio",
+  "name": "ultsass",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ManuelBM119/ultdesafio.git"
+    "url": "git+https://github.com/ManuelBM119/ultsass.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ManuelBM119/ultdesafio/issues"
+    "url": "https://github.com/ManuelBM119/ultsass/issues"
   },
-  "homepage": "https://github.com/ManuelBM119/ultdesafio#readme",
+  "homepage": "https://github.com/ManuelBM119/ultsass#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
